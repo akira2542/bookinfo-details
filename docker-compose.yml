@@ -1,7 +1,7 @@
 services:
   details:
     build: .
-    image: details
+    image: ghcr.io/akira2542/bookinfo-details:dev
     ports:
       - "8080:8080"
     environment:
