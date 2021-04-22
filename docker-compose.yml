@@ -1,8 +1,8 @@
 services:
   details:
     build: .
-    image: ghcr.io/akira2542/bookinfo-details:dev
+    image: ghcr.io/akira2542/bookinfo-details:prd
     ports:
-      - "8081:8080"
+      - "8081:8081"
     environment:
       SERVICE_VERSION: v1
