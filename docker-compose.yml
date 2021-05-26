@@ -1,11 +1,7 @@
 services:
   details:
     build: .
-<<<<<<< HEAD
     image: ghcr.io/akira2542/bookinfo-details:dev
-=======
-    image: ghcr.io/akira2542/bookinfo-details:prd
->>>>>>> main
     ports:
       - "8081:8081"
     environment:
